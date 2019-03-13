@@ -1,0 +1,37 @@
+.header {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar {
+  text-align: center;
+  background-color: grey;
+}
+
+.content {
+  /* Some styling. */
+}
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.nav > li {
+  float: left;
+}
+
+ul.nav > li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+ul.nav > li a:hover {
+  background-color: #111111;
+}
