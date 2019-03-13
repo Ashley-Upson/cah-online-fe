@@ -1,39 +1,30 @@
-<html lang="en">
-  <head>
-    <title>
-      CAH Online
-    </title>
-  </head>
-  <body>
-    <div class="header">
-      Welcome to CAH Online!
-    </div>
-    <div class="navbar">
-      <ul class="nav">
-        <li>
-          <a [routerLink]="['/']">
-            Home
-          </a>
-        </li>
-        <li>
-          <a [routerLink]="['/auth/login']">
-            Login
-          </a>
-        </li>
-        <li>
-          <a [routerLink]="['/auth/register']">
-            Register
-          </a>
-        </li>
-        <li>
-          <a [routerLink]="['/game/play']">
-            Play
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="content">
-      <router-outlet></router-outlet>
-    </div>
-  </body>
-</html>
+<div class="header">
+  Welcome to CAH Online!
+</div>
+<div class="navbar">
+  <ul class="nav">
+    <li>
+      <a [routerLink]="['/']">
+        Home
+      </a>
+    </li>
+    <li>
+      <a [routerLink]="['/auth/login']">
+        Login
+      </a>
+    </li>
+    <li>
+      <a [routerLink]="['/auth/register']">
+        Register
+      </a>
+    </li>
+    <li>
+      <a [routerLink]="['/game/play']">
+        Play
+      </a>
+    </li>
+  </ul>
+</div>
+<div class="content">
+  <router-outlet></router-outlet>
+</div>
