@@ -1,3 +1,28 @@
-<p>
-  register works!
-</p>
+<label for="name">
+  Name
+</label>
+<input type="text" name="name" [(ngModel)]="name" placeholder="Name..." id="name" />
+<br />
+<label for="email">
+  Email
+</label>
+<input type="email" name="email" [(ngModel)]="email" placeholder="Email..." id="email" />
+<br />
+<label for="username">
+  Username
+</label>
+<input type="text" name="username" [(ngModel)]="username" placeholder="Username..." id="username" />
+<br />
+<label for="password">
+  Password
+</label>
+<input type="text" name="password" [(ngModel)]="password" placeholder="Password..." id="password" />
+<br />
+<label for="repeat_password">
+  Repeat Password
+</label>
+<input type="text" name="repeat_password" [(ngModel)]="repeat_password" placeholder="Repeat password..." id="repeat_password" />
+<br />
+<button (click)="register()">
+  Register
+</button>

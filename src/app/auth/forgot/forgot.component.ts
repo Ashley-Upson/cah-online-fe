@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./forgot.component.css']
 })
 export class ForgotComponent implements OnInit {
+  email: string = '';
 
   constructor() { }
 
   ngOnInit() {
   }
 
+  reset() {
+
+  }
 }

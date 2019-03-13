@@ -1,3 +1,8 @@
-<p>
-  forgot works!
-</p>
+<label for="email">
+  Email
+</label>
+<input type="email" name="email" [(ngModel)]="email" placeholder="Email..." id="email" />
+<br />
+<button (click)="reset()">
+  Send Reset Email
+</button>

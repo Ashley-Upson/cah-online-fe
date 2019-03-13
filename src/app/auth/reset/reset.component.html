@@ -1,3 +1,23 @@
-<p>
-  reset works!
-</p>
+<label for="token">
+  Token
+</label>
+<input type="text" name="token" [(ngModel)]="token" placeholder="Token..." id="token" />
+<br />
+<label for="email">
+  Email
+</label>
+<input type="email" name="email" [(ngModel)]="email" placeholder="Email..." id="email" />
+<br />
+<label for="token">
+  New Password
+</label>
+<input type="password" name="password" [(ngModel)]="password" placeholder="New password..." id="password" />
+<br />
+<label for="token">
+  Repeat New Password
+</label>
+<input type="password" name="repeat_password" [(ngModel)]="repeat_password" placeholder="Repeat new password..." id="repeat_password" />
+<br />
+<button (click)="reset()">
+  Reset Password
+</button>
