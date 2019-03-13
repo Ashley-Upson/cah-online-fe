@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./reset.component.css']
 })
 export class ResetComponent implements OnInit {
+  token: string = '';
+  email: string = '';
+  password: string = '';
+  repeat_password: string = '';
 
   constructor() { }
 
   ngOnInit() {
   }
 
+  reset() {
+
+  }
 }
