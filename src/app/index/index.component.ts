@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare let session;
 
 @Component({
   selector: 'app-index',
@@ -10,6 +11,6 @@ export class IndexComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log(session);
   }
-
 }
